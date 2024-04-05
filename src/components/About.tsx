@@ -1,10 +1,12 @@
+import Wrapper from './Wrapper'
+
 const About = () => {
   return (
-    <div className="wrapper bg-red-500">
+    <Wrapper>
       <div className="container">
         <h1>About</h1>
       </div>
-    </div>
+    </Wrapper>
   )
 }
 
