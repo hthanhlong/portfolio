@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 
 const Nav = () => {
   return (
-    <div className="h-20">
+    <div className="fixed top-0 w-full">
       <div className="container">
         <motion.div
           whileInView={{
@@ -13,7 +13,7 @@ const Nav = () => {
           transition={{
             duration: 0.3
           }}
-          className="flex h-full items-center"
+          className="flex h-20 items-center"
         >
           <div className="flex flex-1 justify-between">
             <div className="nav-left flex items-center lg:gap-10">

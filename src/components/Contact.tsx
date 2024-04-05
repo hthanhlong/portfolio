@@ -1,13 +1,13 @@
 import Wrapper from './Wrapper'
 
-const About = () => {
+const Contact = () => {
   return (
     <Wrapper>
       <div className="container">
-        <h2 className="text-white">About</h2>
+        <h2 className="text-white">Contact</h2>
       </div>
     </Wrapper>
   )
 }
 
-export default About
+export default Contact

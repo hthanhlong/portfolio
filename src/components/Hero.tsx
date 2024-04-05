@@ -9,10 +9,7 @@ const Hero = () => {
   return (
     <Wrapper>
       <Nav />
-      <div
-        id="home"
-        className="hero-content container flex items-center justify-between lg:px-10"
-      >
+      <div className="hero-content container flex h-full items-center justify-between lg:px-10">
         <div className="hero-left text-white">
           <motion.div
             initial={{ x: -100, opacity: 0 }}
