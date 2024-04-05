@@ -1,4 +1,5 @@
-import Experience from './Experience'
-import Interface from './Interface'
+import Hero from './Hero'
+import About from './About'
+import Nav from './Nav'
 
-export { Experience, Interface }
+export { Hero, About, Nav }
