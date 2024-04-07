@@ -2,7 +2,7 @@ import Wrapper from './Wrapper'
 
 const About = () => {
   return (
-    <Wrapper>
+    <Wrapper id="about">
       <div className="container">
         <h2 className="text-white">About</h2>
       </div>

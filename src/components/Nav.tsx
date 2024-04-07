@@ -1,9 +1,9 @@
-import { images } from '../utils'
 import { motion } from 'framer-motion'
+import HireMeButton from './HireMeButton'
 
 const Nav = () => {
   return (
-    <div className="fixed top-0 w-full">
+    <div className="nav fixed top-0 w-full overflow-hidden">
       <div className="container">
         <motion.div
           whileInView={{
@@ -21,32 +21,22 @@ const Nav = () => {
               <nav>
                 <ul className="flex gap-6 font-semibold text-white">
                   <li className="smooth duration-400 cursor-pointer transition-all hover:scale-105 hover:text-pink-500">
-                    Home
+                    <a href="#home">Home</a>
                   </li>
                   <li className="smooth duration-400 cursor-pointer transition-all hover:scale-105 hover:text-pink-500">
-                    About
+                    <a href="#about">About</a>
                   </li>
                   <li className="smooth duration-400 cursor-pointer transition-all hover:scale-105 hover:text-pink-500">
-                    Projects
+                    <a href="#projects">Projects</a>
                   </li>
                   <li className="smooth duration-400 cursor-pointer transition-all hover:scale-105 hover:text-pink-500">
-                    Contact
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </nav>
             </div>
             <div className="nav-right flex items-center gap-8">
-              <img
-                src={images.searchIcon}
-                className="h-6 w-6 cursor-pointer hover:scale-110"
-              />
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9, rotate: 10 }}
-                className="rounded-md bg-pink-500 px-4 py-2 font-bold text-white lg:w-[120px]"
-              >
-                Hire Now
-              </motion.button>
+              <HireMeButton />
             </div>
           </div>
         </motion.div>

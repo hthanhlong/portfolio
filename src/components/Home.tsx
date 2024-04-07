@@ -1,16 +1,14 @@
 import { Canvas } from '@react-three/fiber'
 import { images } from '../utils'
-import Nav from './Nav'
 import Wrapper from './Wrapper'
 import { motion } from 'framer-motion'
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
 
-const Hero = () => {
+const Home = () => {
   return (
-    <Wrapper>
-      <Nav />
-      <div className="hero-content container flex h-full items-center justify-between lg:px-10">
-        <div className="hero-left text-white">
+    <Wrapper id="home">
+      <div className="home-content container flex h-full items-center justify-between lg:px-10">
+        <div className="home-left text-white">
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -34,7 +32,7 @@ const Hero = () => {
             transition={{ duration: 1.5 }}
             className="mb-3 flex items-center gap-2"
           >
-            <span className="text-white-200">----</span>
+            <span className="text-white-200 h-[4px] w-[40px] rounded-l bg-white"></span>
             <span className="text-2xl text-pink-400"> What we do</span>
           </motion.div>
           <motion.div
@@ -65,7 +63,7 @@ const Hero = () => {
           initial={{ x: 100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           transition={{ duration: 1 }}
-          className="hero-right relative flex h-full flex-1 items-center justify-center"
+          className="home-right relative flex h-full flex-1 items-center justify-center"
         >
           <Canvas>
             <OrbitControls enableZoom={false} />
@@ -91,8 +89,8 @@ const Hero = () => {
               delay: 2
             }}
             src={images.moon}
-            alt="hero"
-            className="pointer-events-none absolute w-11/12"
+            alt="home"
+            className="pointer-events-none absolute w-8/12"
           />
         </motion.div>
       </div>
@@ -100,4 +98,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Home

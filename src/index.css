@@ -26,3 +26,14 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.text-get-in-touch::after {
+  content: 'GET IN TOUCH';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 140px;
+  font-weight: 700;
+  font-style: italic;
+}

@@ -1,8 +1,9 @@
-import { About, Contact, Hero, Projects } from './components'
+import { About, Contact, Hero, Nav, Projects } from './components'
 
 function App() {
   return (
     <div className="app">
+      <Nav />
       <Hero />
       <About />
       <Projects />
