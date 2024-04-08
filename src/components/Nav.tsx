@@ -36,7 +36,9 @@ const Nav = () => {
               </nav>
             </div>
             <div className="nav-right flex items-center gap-8">
-              <HireMeButton />
+              <a href="#contact">
+                <HireMeButton />
+              </a>
             </div>
           </div>
         </motion.div>
