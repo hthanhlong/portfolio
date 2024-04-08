@@ -7,6 +7,8 @@ import Contact from './Contact'
 import Footer from './Footer'
 import GetInTouch from './GetInTouch'
 import HireMeButton from './HireMeButton'
+import Project from './Project'
+import PreLoad from './PreLoad'
 
 export {
   Hero,
@@ -17,5 +19,7 @@ export {
   Experience,
   Footer,
   GetInTouch,
-  HireMeButton
+  HireMeButton,
+  Project,
+  PreLoad
 }

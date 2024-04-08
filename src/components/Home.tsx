@@ -44,19 +44,12 @@ const Home = () => {
             We enjoy creating delightful digital experiences for our customers.
           </motion.div>
           <motion.button
-            whileHover={{
-              scale: 1.1
-            }}
-            whileTap={{
-              scale: 0.9,
-              rotate: 45
-            }}
             initial={{ x: -100, opacity: 0 }}
+            whileHover={{ scale: 1.1 }}
             whileInView={{ x: 0, opacity: 1 }}
-            transition={{ duration: 2 }}
             className="rounded-md bg-pink-500 px-4 py-2 font-bold text-white lg:mt-10 lg:w-[160px]"
           >
-            Learn more
+            Get in touch
           </motion.button>
         </div>
         <motion.div

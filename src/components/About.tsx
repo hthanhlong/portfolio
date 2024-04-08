@@ -4,9 +4,9 @@ import myPicture from '../assets/imgs/my-picture.jpeg'
 
 const About = () => {
   return (
-    <Wrapper id="about">
-      <div className="container">
-        <div className="about-top text-center">
+    <Wrapper id="about relative">
+      <div className="container overflow-hidden">
+        <div className="grid h-1/3 place-items-center">
           <motion.h1
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -16,18 +16,22 @@ const About = () => {
             ABOUT ME
           </motion.h1>
         </div>
-        <div className="about-bottom grid grid-cols-2 gap-10">
-          <div className="about-bottom-left flex items-center justify-center">
-            <img src={myPicture} alt="my-picture" className="w-11/12 rounded" />
+        <div className="mt-auto flex h-full items-center gap-4 rounded-lg bg-black bg-opacity-20 p-4">
+          <div className="about-bottom-left mx-auto">
+            <img
+              src={myPicture}
+              alt="my-picture"
+              className="max-w-[20rem] rounded object-cover"
+            />
           </div>
           <div className="about-bottom-right text-gray-300">
-            <div className="content text-xl leading-8">
+            <div className="content text-xl leading-7">
               <div>I'm Long</div> a front-end developer passionate about
               crafting user-friendly web applications. With over four years of
               professional experience, I've honed my skills in various
               technologies that empower me to build dynamic and responsive web
               solutions.
-              <div className="mt-10">
+              <div className="mt-4">
                 My primary focus lies in leveraging the power of ReactJS to
                 create interactive and scalable user interfaces. These
                 technologies enable me to develop applications that look great
@@ -37,7 +41,7 @@ const About = () => {
                 create visually appealing web designs with a strong emphasis on
                 performance and user accessibility.
               </div>
-              <div className="mt-10">
+              <div className="mt-4">
                 I also have a soft backend foundation with Node.js and
                 Express.js, enabling me to build full-stack applications quickly
                 and easily. Whether handling server-side logic or designing API
