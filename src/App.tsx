@@ -4,10 +4,10 @@ function App() {
   return (
     <div className="app">
       <Nav />
-      <Hero />
+      {/* <Hero /> */}
       <About />
       <Experience />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   )
 }

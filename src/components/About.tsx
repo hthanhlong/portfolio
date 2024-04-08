@@ -1,5 +1,7 @@
 import Wrapper from './Wrapper'
 import { motion } from 'framer-motion'
+import myPicture from '../assets/imgs/my-picture.jpeg'
+
 const About = () => {
   return (
     <Wrapper id="about">
@@ -14,12 +16,14 @@ const About = () => {
             ABOUT ME
           </motion.h1>
         </div>
-        <div className="about-bottom grid grid-cols-2 text-white">
-          <div className="about-bottom-left">Image</div>
+        <div className="about-bottom grid grid-cols-2 gap-10">
+          <div className="about-bottom-left flex items-center justify-center">
+            <img src={myPicture} alt="my-picture" className="w-11/12 rounded" />
+          </div>
           <div className="about-bottom-right text-gray-300">
             <div className="content text-xl leading-8">
-              I'm Long, <br /> a front-end developer passionate about crafting
-              user-friendly web applications. With over four years of
+              <div>I'm Long</div> a front-end developer passionate about
+              crafting user-friendly web applications. With over four years of
               professional experience, I've honed my skills in various
               technologies that empower me to build dynamic and responsive web
               solutions.
