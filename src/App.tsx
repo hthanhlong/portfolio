@@ -5,8 +5,8 @@ function App() {
     <div className="app">
       <Nav />
       {/* <Hero /> */}
-      <About />
-      {/* <Experience /> */}
+      {/* <About /> */}
+      <Experience />
       {/* <Contact /> */}
       <PreLoad />
     </div>

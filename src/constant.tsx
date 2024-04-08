@@ -2,21 +2,21 @@ import { benefitCard3, benefitCard5, benefitCard6 } from './assets'
 export const benefits = [
   {
     id: '0',
-    title: 'Ask anything',
-    text: 'Lets users quickly find answers to their questions without having to search through multiple sources.',
+    title: 'Frontend Developer - S3Corp',
+    text: "Description: The project belonged to Razer, a company headquartered in Singapore. Synapse allows users to adjust the colour on Razer's devices",
     backgroundUrl: benefitCard3
   },
   {
     id: '1',
-    title: 'Improve everyday',
-    text: 'The app uses natural language processing to understand user queries and provide accurate and relevant responses.',
+    title: 'FullStack Developer - NPTech',
+    text: 'Description:The startup project was developed by NPTech, a water supply enterprise, to manage customer profiles.',
     backgroundUrl: benefitCard5,
     light: true
   },
   {
     id: '2',
-    title: 'Connect everywhere',
-    text: 'Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.',
+    title: 'Frontend Developer - EliSoftware',
+    text: 'Description: The application allows staff to store their documents on a platform like Google Drive, Dropbox, and OneDrive.',
     backgroundUrl: benefitCard6
   }
 ]
