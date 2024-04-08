@@ -16,9 +16,11 @@ const Project = ({
       }}
       key={item.id}
     >
-      <div className="relative flex min-h-[23rem] flex-col">
+      <div className="relative flex h-[320px] flex-col">
         <div className="h-full w-full p-[2.4rem]">
-          <h5 className="h5 mb-5 text-xl font-bold">{item.title}</h5>
+          <h5 className="h5 mb-5 text-xl font-bold text-pink-300">
+            {item.title}
+          </h5>
           <p className="text-n-3 mb-6 leading-8">{item.text}</p>
         </div>
       </div>
