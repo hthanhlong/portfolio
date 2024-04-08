@@ -27,7 +27,7 @@ const Nav = () => {
                     <a href="#about">About</a>
                   </li>
                   <li className="smooth duration-400 cursor-pointer transition-all hover:scale-105 hover:text-pink-500">
-                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
                   </li>
                   <li className="smooth duration-400 cursor-pointer transition-all hover:scale-105 hover:text-pink-500">
                     <a href="#contact">Contact</a>

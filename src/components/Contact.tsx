@@ -69,8 +69,20 @@ const Contact = () => {
               </button>
             </motion.form>
           </div>
-
-          <div className="contact-right flex h-full w-1/2 flex-col justify-between pl-40 text-white">
+          <motion.div
+            initial={{
+              opacity: 0,
+              scale: 0.5
+            }}
+            whileInView={{
+              opacity: 1,
+              scale: 1
+            }}
+            transition={{
+              duration: 1
+            }}
+            className="contact-right flex h-full w-1/2 flex-col justify-between pl-40 text-white"
+          >
             <div>
               <div className="text-xl text-gray-500">Phone</div>
               <div className="text-lg">+1 (604)-621-7979</div>
@@ -91,7 +103,7 @@ const Contact = () => {
                 <div className="text-lg">Skype</div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <div className="flex h-full w-full flex-col items-center justify-end text-white">
           <motion.div

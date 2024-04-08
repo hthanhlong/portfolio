@@ -37,3 +37,32 @@
   font-weight: 700;
   font-style: italic;
 }
+
+.about-me-text {
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #954dc7;
+}
+
+.about-me-text::before {
+  content: 'ABOUT ME';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  font-size: 200px;
+  font-weight: 700;
+  background-image: linear-gradient(to top, #000000 0%, #91198f 100%);
+  background-clip: text;
+  transform: scaleY(0);
+  transform-origin: 0 210px;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+
+.about-me-text:hover::before {
+  transform: scaleY(1);
+  opacity: 1;
+}

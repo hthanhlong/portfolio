@@ -2,7 +2,7 @@ import Wrapper from './Wrapper'
 import Hero from './Home'
 import About from './About'
 import Nav from './Nav'
-import Projects from './Projects'
+import Experience from './Experience'
 import Contact from './Contact'
 import Footer from './Footer'
 import GetInTouch from './GetInTouch'
@@ -14,7 +14,7 @@ export {
   Nav,
   Wrapper,
   Contact,
-  Projects,
+  Experience,
   Footer,
   GetInTouch,
   HireMeButton
