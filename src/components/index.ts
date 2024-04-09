@@ -11,6 +11,8 @@ import Project from './Project'
 import PreLoad from './PreLoad'
 import AboutMe from './AboutMe'
 import Portfolio from './Portfolio'
+import GithubIcon from './GithubIcon'
+import LiveIcon from './LiveIcon'
 
 export {
   Hero,
@@ -25,5 +27,7 @@ export {
   Project,
   PreLoad,
   AboutMe,
-  Portfolio
+  Portfolio,
+  GithubIcon,
+  LiveIcon
 }

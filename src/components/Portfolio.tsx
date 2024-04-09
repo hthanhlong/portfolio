@@ -1,3 +1,5 @@
+import { GithubIcon, LiveIcon } from '.'
+
 const Portfolio = ({
   item
 }: {
@@ -7,6 +9,8 @@ const Portfolio = ({
     text: string
     backgroundUrl: string
     thumbnail: string
+    linkGithub: string
+    linkLive: string
   }
 }) => {
   return (
@@ -29,10 +33,23 @@ const Portfolio = ({
               alt="thumnbnail_1"
             />
           </div>
-
           <div className="action flex justify-center gap-4">
-            <span>Github</span>
-            <span>Live Demo</span>
+            <a
+              className="flex items-center text-lg transition-all hover:text-blue-400"
+              href={item.linkGithub}
+              target="_blank"
+            >
+              <GithubIcon />
+              <span className="ml-3">Github</span>
+            </a>
+            <a
+              className="flex items-center text-lg transition-all hover:text-blue-400"
+              href={item.linkLive}
+              target="_blank"
+            >
+              <LiveIcon />
+              <span className="ml-3">Live</span>
+            </a>
           </div>
         </div>
       </div>

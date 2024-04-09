@@ -34,7 +34,9 @@ export const portfolio = [
     title: 'Coder Editor',
     text: "Description: The project belonged to Razer, a company headquartered in Singapore. Synapse allows users to adjust the colour on Razer's devices",
     backgroundUrl: benefitCard3,
-    thumbnail: thumbnail_1
+    thumbnail: thumbnail_1,
+    linkGithub: 'https://github.com/hthanhlong/react_code_editor',
+    linkLive: 'https://codeeditor.hthanhlong97.com/'
   },
   {
     id: '1',
@@ -42,7 +44,8 @@ export const portfolio = [
     text: 'Description:The startup project was developed by NPTech, a water supply enterprise, to manage customer profiles.',
     backgroundUrl: benefitCard5,
     thumbnail: thumbnail_2,
-    light: true
+    linkGithub: 'https://github.com/hthanhlong/chat-page',
+    linkLive: 'https://chatapp.hthanhlong97.com/login'
   },
   {
     id: '2',

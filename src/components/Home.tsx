@@ -43,13 +43,14 @@ const Home = () => {
           >
             We enjoy creating delightful digital experiences for our customers.
           </motion.div>
+
           <motion.button
             initial={{ x: -100, opacity: 0 }}
             whileHover={{ scale: 1.1 }}
             whileInView={{ x: 0, opacity: 1 }}
             className="rounded-md bg-pink-500 px-4 py-2 font-bold text-white lg:mt-10 lg:w-[160px]"
           >
-            Get in touch
+            <a href="#contact">Get in touch</a>
           </motion.button>
         </div>
         <motion.div
