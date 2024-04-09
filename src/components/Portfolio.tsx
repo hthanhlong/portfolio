@@ -28,7 +28,8 @@ const Portfolio = ({
           </h5>
           <div>
             <img
-              className="mb-4 h-[140px] w-full cursor-pointer object-cover hover:scale-105"
+              className="mb-4 h-[140px] w-full object-cover hover:scale-105"
+              draggable={false}
               src={item.thumbnail}
               alt="thumnbnail_1"
             />

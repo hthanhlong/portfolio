@@ -34,7 +34,9 @@ const Experience = () => {
                 key={item.id}
                 item={{
                   ...item,
-                  thumbnail: item.thumbnail || 'defaultThumbnail.jpg'
+                  thumbnail: item.thumbnail || 'defaultThumbnail.jpg',
+                  linkGithub: item.linkGithub || '',
+                  linkLive: item.linkLive || ''
                 }}
               />
             ))}

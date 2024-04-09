@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <Wrapper id="about relative">
+    <Wrapper id="about">
       <div className="container grid h-full place-items-center">
         <div>
           <div className="grid h-1/4 place-items-center">
@@ -27,8 +27,8 @@ const About = () => {
             <div className="about-bottom-right text-gray-300">
               <div className="content text-xl leading-7">
                 <div>I'm Long</div> a front-end developer passionate about
-                crafting user-friendly web applications. With over four years of
-                professional experience, I've honed my skills in various
+                crafting user-friendly web applications. With over three years
+                of professional experience, I've honed my skills in various
                 technologies that empower me to build dynamic and responsive web
                 solutions.
                 <div className="mt-4">
