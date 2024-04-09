@@ -9,6 +9,8 @@ import GetInTouch from './GetInTouch'
 import HireMeButton from './HireMeButton'
 import Project from './Project'
 import PreLoad from './PreLoad'
+import AboutMe from './AboutMe'
+import Portfolio from './Portfolio'
 
 export {
   Hero,
@@ -21,5 +23,7 @@ export {
   GetInTouch,
   HireMeButton,
   Project,
-  PreLoad
+  PreLoad,
+  AboutMe,
+  Portfolio
 }

@@ -1,6 +1,7 @@
 import Wrapper from './Wrapper'
-import { benefits } from '../constant'
+import { benefits, portfolio } from '../constant'
 import Project from './Project'
+import Portfolio from './Portfolio'
 
 const Experience = () => {
   return (
@@ -19,8 +20,8 @@ const Experience = () => {
             Portfolio
           </h1>
           <div className="flex">
-            {benefits.map((item) => (
-              <Project key={item.id} item={item} />
+            {portfolio.map((item) => (
+              <Portfolio key={item.id} item={{...item, thumbnail: item.thumbnail || 'defaultThumbnail.jpg'}} />
             ))}
           </div>
         </div>

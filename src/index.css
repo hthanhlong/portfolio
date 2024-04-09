@@ -41,27 +41,27 @@
   font-style: italic;
 }
 
-.about-me-text {
+/* .about-me-text {
   font-family: 'Outfit', sans-serif;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: #954dc7;
+} */
+
+.about-me {
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #cfa2ee;
 }
 
-.about-me-text::before {
-  content: 'ABOUT ME';
+.about-me::before {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-image: linear-gradient(to top, #000000 0%, #91198f 100%);
-  background-clip: text;
-  transform: scaleY(0);
-  transform-origin: 0 212px;
-  opacity: 0;
-  transition: all 0.3s linear;
+  content: 'ABOUT ME';
+  color: rgb(69, 22, 109);
+  overflow: hidden;
+  width: 0%;
+  height: 100%;
+  transition: all 0.1s linear;
 }
 
-.about-me-text:hover::before {
-  transform: scaleY(1);
-  opacity: 1;
+.about-me:hover::before {
+  width: 100%;
 }
