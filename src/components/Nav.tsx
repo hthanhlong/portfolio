@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import HireMeButton from './HireMeButton'
-import { useState } from 'react'
+// import { useState } from 'react'
 
 const link = [
   {
@@ -22,8 +22,9 @@ const link = [
 ]
 
 const Nav = () => {
-  const [active, setActive] = useState('Home')
+  // const [active, setActive] = useState('Home')
 
+  const active = 'Home'
   return (
     <div className="nav fixed top-0 w-full overflow-hidden bg-gradient-to-b from-[#000000] to-[transparent]">
       <div className="container">
