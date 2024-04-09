@@ -3,7 +3,8 @@ import {
   benefitCard5,
   benefitCard6,
   thumbnail_1,
-  thumbnail_2
+  thumbnail_2,
+  thumbnail_3
 } from './assets'
 
 export const benefits = [
@@ -49,8 +50,11 @@ export const portfolio = [
   },
   {
     id: '2',
-    title: '...Developing',
+    title: 'Nike Page',
     text: 'Description: The application allows staff to store their documents on a platform like Google Drive, Dropbox, and OneDrive.',
-    backgroundUrl: benefitCard6
+    backgroundUrl: benefitCard6,
+    thumbnail: thumbnail_3,
+    linkGithub: 'https://github.com/hthanhlong/nike_clone',
+    linkLive: 'https://nikeclone.hthanhlong97.com'
   }
 ]
