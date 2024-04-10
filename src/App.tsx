@@ -1,3 +1,5 @@
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 import {
   About,
   Contact,
@@ -9,14 +11,17 @@ import {
 
 function App() {
   return (
-    <div className="app">
-      <Hero />
-      <About />
-      <Experience />
-      <Portfolios />
-      <Contact />
-      <PreLoad />
-    </div>
+    <>
+      <div className="app">
+        <Hero />
+        <About />
+        <Experience />
+        <Portfolios />
+        <Contact />
+        <PreLoad />
+      </div>
+      <ToastContainer limit={2} />
+    </>
   )
 }
 

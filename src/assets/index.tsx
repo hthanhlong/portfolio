@@ -10,6 +10,8 @@ import linkedinIcon from './svgs/linkedin.svg'
 import skypeIcon from './svgs/skype.svg'
 import gmailIcon from './svgs/gmail.svg'
 import arrowIcon from './svgs/arrow.svg'
+import spin from './svgs/spin.svg'
+import loading from './svgs/loading.svg'
 
 export {
   benefitCard3,
@@ -23,5 +25,7 @@ export {
   linkedinIcon,
   skypeIcon,
   gmailIcon,
-  arrowIcon
+  arrowIcon,
+  spin,
+  loading
 }
