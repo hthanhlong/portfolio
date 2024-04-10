@@ -15,6 +15,7 @@ import GithubIcon from './GithubIcon'
 import LiveIcon from './LiveIcon'
 import Portfolios from './Portfolios'
 import ExperienceTag from './ExperienceTag'
+import Form from './Form'
 
 export {
   Hero,
@@ -33,5 +34,6 @@ export {
   GithubIcon,
   LiveIcon,
   Portfolios,
-  ExperienceTag
+  ExperienceTag,
+  Form
 }

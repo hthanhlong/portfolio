@@ -9,6 +9,7 @@ import githubIcon from './svgs/github.svg'
 import linkedinIcon from './svgs/linkedin.svg'
 import skypeIcon from './svgs/skype.svg'
 import gmailIcon from './svgs/gmail.svg'
+import arrowIcon from './svgs/arrow.svg'
 
 export {
   benefitCard3,
@@ -21,5 +22,6 @@ export {
   githubIcon,
   linkedinIcon,
   skypeIcon,
-  gmailIcon
+  gmailIcon,
+  arrowIcon
 }
