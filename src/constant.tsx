@@ -12,20 +12,26 @@ export const benefits = [
     id: '0',
     title: 'Frontend Developer - S3Corp',
     text: "Description: The project belonged to Razer, a company headquartered in Singapore. Synapse allows users to adjust the colour on Razer's devices",
-    backgroundUrl: benefitCard3
+    backgroundUrl: benefitCard3,
+    skills:
+      'HTML, SASS, Javascript, React, React testing library, Redux, TailwindCSS, ElectronJS, Typescript'
   },
   {
     id: '1',
     title: 'FullStack Developer - NPTech',
     text: 'Description:The startup project was developed by NPTech, a water supply enterprise, to manage customer profiles.',
     backgroundUrl: benefitCard5,
-    light: true
+    light: true,
+    skills:
+      'HTML, SASS, Javascript, React, Redux, Antd, ExpressJs, SocketIO, Sequelize, SQLServer, Docker, Jenkins, AWS.'
   },
   {
     id: '2',
     title: 'Frontend Developer - EliSoftware',
     text: 'Description: The application allows staff to store their documents on a platform like Google Drive, Dropbox, and OneDrive.',
-    backgroundUrl: benefitCard6
+    backgroundUrl: benefitCard6,
+    skills:
+      'HTML, CSS, Bootraps 4, Javascript, React, Redux, Docker, PHP, MySQL'
   }
 ]
 

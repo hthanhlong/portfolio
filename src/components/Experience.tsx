@@ -12,7 +12,9 @@ const Experience = () => {
           whileInView={{ x: 0 }}
           transition={{ duration: 1 }}
         >
-          <h1 className="mb-3 text-2xl font-bold text-pink-600">Experience</h1>
+          <h1 className="mb-3 text-2xl font-bold text-pink-600 lg:text-4xl">
+            Experience
+          </h1>
           <div className="flex flex-col gap-2 lg:flex-row lg:gap-4">
             {benefits.map((item) => (
               <ExperienceTag key={item.id} item={item} />

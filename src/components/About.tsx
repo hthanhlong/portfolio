@@ -6,26 +6,25 @@ import { motion } from 'framer-motion'
 const About = () => {
   return (
     <Wrapper id="about">
-      <div className="container grid place-content-center">
-        <div className="grid h-1/4 place-content-center">
+      <div className="container grid place-content-center p-4">
+        <div className="grid place-content-center">
           <AboutMe />
         </div>
-
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.3 }}
-          className="flex flex-col items-center gap-2 bg-black bg-opacity-20 px-4"
+          className="flex flex-col items-center gap-2 rounded-lg bg-black bg-opacity-20 p-2 lg:flex-row lg:gap-4"
         >
           <div className="">
             <img
               src={myPicture}
               alt="my-picture"
-              className="max-h-[300px] max-w-[300px] object-contain max-sm:min-h-[200px] max-sm:max-w-[200px]"
+              className="max-h-[300px] max-w-[300px] rounded-xl object-contain max-sm:min-h-[200px] max-sm:max-w-[200px] lg:max-h-[400px] lg:max-w-[400px]"
             />
           </div>
           <div className="about-bottom-right text-gray-100">
-            <div className="content text-md leading-7">
+            <div className="content text-md leading-7 lg:text-xl">
               I'm Long, a front-end developer passionate about crafting
               user-friendly web applications. With over three years of
               professional experience, I've honed my skills in various

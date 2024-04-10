@@ -45,7 +45,7 @@ const Nav = () => {
           <div className="flex flex-1 justify-between">
             <div className="nav-left flex items-center lg:gap-10">
               <h1 className="font-bold text-white lg:text-2xl">Long Hoang</h1>
-              <nav className="max-lg:hidden">
+              <nav className="hidden lg:block">
                 <ul className="flex gap-6 font-semibold text-white">
                   {link.map((item, index) => (
                     <li

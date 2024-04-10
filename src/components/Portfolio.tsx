@@ -15,16 +15,18 @@ const Portfolio = ({
 }) => {
   return (
     <div key={item.id} className="rounded-md bg-white bg-opacity-10">
-      <div className="min-h-[160px] w-full min-w-[320px] p-2">
+      <div className="min-h-[160px] w-full min-w-[320px] p-2 lg:p-4">
         <h5 className="text-center text-sm font-bold text-pink-300 lg:text-xl">
           {item.title}
         </h5>
-        <img
-          draggable={false}
-          src={item.thumbnail}
-          alt="thumnbnail_1"
-          className="mx-auto my-1 hover:scale-105 max-sm:h-[100px] max-sm:w-[200px] lg:h-[300px] lg:w-[400px]"
-        />
+        <a href={item.linkLive} target="_blank">
+          <img
+            draggable={false}
+            src={item.thumbnail}
+            alt="thumnbnail_1"
+            className="mx-auto my-1 h-[100px] w-[100px] transition-all hover:scale-105 md:h-[250px] md:w-[250px] lg:h-[300px] lg:w-[400px]"
+          />
+        </a>
         <div className="flex justify-center gap-4">
           <a
             className="flex items-center text-sm transition-all hover:text-blue-400 lg:mt-4 lg:text-lg"

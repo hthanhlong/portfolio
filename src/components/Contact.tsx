@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     <Wrapper id="contact">
-      <div className="container relative grid place-content-center pb-20 max-sm:px-8">
+      <div className="lg:pb-30 container relative grid place-content-center max-sm:px-8">
         <GetInTouch />
 
         <div className="mt-10">
@@ -91,7 +91,7 @@ const Contact = () => {
                 className="text-md h-[40px] border-0 border-b-[1px] bg-transparent text-white focus:outline-none max-sm:text-xs"
               />
             </div>
-            <button className="mt-4 rounded-xl bg-pink-400 text-sm font-bold text-white transition-all hover:scale-105 max-sm:h-[40px]">
+            <button className="mt-4 h-[40px] rounded-xl bg-pink-400 text-sm font-bold text-white transition-all hover:scale-105">
               Send Message{' '}
               <svg
                 viewBox="0 0 1024 1024"
@@ -104,14 +104,6 @@ const Contact = () => {
               </svg>
             </button>
           </motion.form>
-        </div>
-        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 text-white max-sm:pb-4 sm:pb-16">
-          <p className="text-sm">Created by Long Hoang</p>
-          <div className="flex gap-2">
-            <div className="text-sm">LinkedIn</div>
-            <div className="text-sm">Github</div>
-            <div className="text-sm">Skype</div>
-          </div>
         </div>
       </div>
     </Wrapper>
