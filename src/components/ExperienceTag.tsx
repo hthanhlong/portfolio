@@ -1,4 +1,4 @@
-const Project = ({
+const ExperienceTag = ({
   item
 }: {
   item: {
@@ -11,7 +11,7 @@ const Project = ({
   return (
     <div
       key={item.id}
-      className="max-h-[200px] w-full max-w-[320px] rounded-xl bg-white bg-opacity-10"
+      className="h-full min-h-[160px] w-full max-w-[320px] rounded-xl bg-white bg-opacity-10"
     >
       <div className="p-4">
         <h5 className="h5 mb-2 text-sm font-bold text-pink-300">
@@ -23,4 +23,4 @@ const Project = ({
   )
 }
 
-export default Project
+export default ExperienceTag

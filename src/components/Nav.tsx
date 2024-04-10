@@ -16,6 +16,10 @@ const link = [
     href: '#experience'
   },
   {
+    label: 'Portfolios',
+    href: '#portfolios'
+  },
+  {
     label: 'Contact',
     href: '#contact'
   }
@@ -26,8 +30,8 @@ const Nav = () => {
 
   const active = 'Home'
   return (
-    <div className="nav fixed top-0 w-full overflow-hidden bg-gradient-to-b from-[#000000] to-[transparent]">
-      <div className="container">
+    <div className="fixed right-0 top-0 z-50 w-full overflow-hidden">
+      <div className="container px-8">
         <motion.div
           whileInView={{
             y: [-80, 0],
@@ -41,7 +45,7 @@ const Nav = () => {
           <div className="flex flex-1 justify-between">
             <div className="nav-left flex items-center lg:gap-10">
               <h1 className="font-bold text-white lg:text-2xl">Long Hoang</h1>
-              <nav>
+              <nav className="max-lg:hidden">
                 <ul className="flex gap-6 font-semibold text-white">
                   {link.map((item, index) => (
                     <li

@@ -1,4 +1,12 @@
-import { About, Contact, Hero, Nav, Experience, PreLoad } from './components'
+import {
+  About,
+  Contact,
+  Hero,
+  Nav,
+  Experience,
+  PreLoad,
+  Portfolios
+} from './components'
 
 function App() {
   return (
@@ -7,6 +15,7 @@ function App() {
       <Hero />
       <About />
       <Experience />
+      <Portfolios />
       <Contact />
       <PreLoad />
     </div>

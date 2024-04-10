@@ -13,6 +13,8 @@ import AboutMe from './AboutMe'
 import Portfolio from './Portfolio'
 import GithubIcon from './GithubIcon'
 import LiveIcon from './LiveIcon'
+import Portfolios from './Portfolios'
+import ExperienceTag from './ExperienceTag'
 
 export {
   Hero,
@@ -29,5 +31,7 @@ export {
   AboutMe,
   Portfolio,
   GithubIcon,
-  LiveIcon
+  LiveIcon,
+  Portfolios,
+  ExperienceTag
 }

@@ -14,44 +14,34 @@ const Portfolio = ({
   }
 }) => {
   return (
-    <div
-      className="relative block w-full overflow-hidden bg-no-repeat"
-      style={{
-        backgroundImage: `url(${item.backgroundUrl})`
-      }}
-      key={item.id}
-    >
-      <div className="relative flex min-h-[320px] flex-col">
-        <div className="h-full w-full p-[2.4rem]">
-          <h5 className="h5 mb-5 text-center text-xl font-bold text-pink-300">
-            {item.title}
-          </h5>
-          <div>
-            <img
-              className="mb-4 h-[140px] w-full object-cover hover:scale-105"
-              draggable={false}
-              src={item.thumbnail}
-              alt="thumnbnail_1"
-            />
-          </div>
-          <div className="action flex justify-center gap-4">
-            <a
-              className="flex items-center text-lg transition-all hover:text-blue-400"
-              href={item.linkGithub}
-              target="_blank"
-            >
-              <GithubIcon />
-              <span className="ml-3">Github</span>
-            </a>
-            <a
-              className="flex items-center text-lg transition-all hover:text-blue-400"
-              href={item.linkLive}
-              target="_blank"
-            >
-              <LiveIcon />
-              <span className="ml-3">Live</span>
-            </a>
-          </div>
+    <div key={item.id} className="rounded-md bg-white bg-opacity-10">
+      <div className="min-h-[160px] w-full min-w-[320px] p-2">
+        <h5 className="text-center text-sm font-bold text-pink-300 lg:text-xl">
+          {item.title}
+        </h5>
+        <img
+          draggable={false}
+          src={item.thumbnail}
+          alt="thumnbnail_1"
+          className="mx-auto my-1 hover:scale-105 max-sm:h-[100px] max-sm:w-[200px] lg:h-[300px] lg:w-[400px]"
+        />
+        <div className="flex justify-center gap-4">
+          <a
+            className="flex items-center text-sm transition-all hover:text-blue-400 lg:mt-4 lg:text-lg"
+            href={item.linkGithub}
+            target="_blank"
+          >
+            <GithubIcon />
+            <span className="ml-3">Github</span>
+          </a>
+          <a
+            className="flex items-center text-sm transition-all hover:text-blue-400 lg:mt-4 lg:text-lg"
+            href={item.linkLive}
+            target="_blank"
+          >
+            <LiveIcon />
+            <span className="ml-3">Live</span>
+          </a>
         </div>
       </div>
     </div>
