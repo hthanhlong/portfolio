@@ -11,6 +11,7 @@ export const benefits = [
   {
     id: '0',
     title: 'Frontend Developer - S3Corp',
+    years: '2021 - 2023',
     text: "Description: The project belonged to Razer, a company headquartered in Singapore. Synapse allows users to adjust the colour on Razer's devices",
     backgroundUrl: benefitCard3,
     skills:
@@ -18,8 +19,9 @@ export const benefits = [
   },
   {
     id: '1',
-    title: 'FullStack Developer - NPTech',
+    title: 'FullStack Developer (PT) - NPTech',
     text: 'Description:The startup project was developed by NPTech, a water supply enterprise, to manage customer profiles.',
+    years: '2022 - 2023',
     backgroundUrl: benefitCard5,
     light: true,
     skills:
@@ -29,6 +31,7 @@ export const benefits = [
     id: '2',
     title: 'Frontend Developer - EliSoftware',
     text: 'Description: The application allows staff to store their documents on a platform like Google Drive, Dropbox, and OneDrive.',
+    years: '2019 - 2021',
     backgroundUrl: benefitCard6,
     skills:
       'HTML, CSS, Bootraps 4, Javascript, React, Redux, Docker, PHP, MySQL'

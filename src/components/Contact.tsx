@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 const Contact = () => {
   return (
     <Wrapper id="contact">
-      <div className="container relative grid place-content-center max-sm:px-8 lg:pb-20">
+      <div className="container relative grid place-content-center max-sm:px-8">
         <GetInTouch />
         <Form />
         <motion.div
