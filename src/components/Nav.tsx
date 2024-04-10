@@ -30,7 +30,7 @@ const Nav = () => {
 
   const active = 'Home'
   return (
-    <div className="fixed right-0 top-0 z-50 w-full overflow-hidden">
+    <div className="">
       <div className="container px-8">
         <motion.div
           whileInView={{

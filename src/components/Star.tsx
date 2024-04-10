@@ -11,8 +11,6 @@ const lights = [
 function Star({ isHover }: { isHover: boolean }) {
   const { nodes } = useGLTF('/star-icon.glb')
 
-  console.log('nodes', nodes)
-
   return (
     <Canvas
       resize={{ offsetSize: true }}

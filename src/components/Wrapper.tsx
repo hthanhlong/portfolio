@@ -6,7 +6,7 @@ const Wrapper = ({
   id?: string
 }) => {
   return (
-    <div {...props} className="wrapper overflow-hidden pt-20 max-sm:pb-4">
+    <div {...props} className="wrapper relative overflow-hidden max-sm:pb-4">
       {children}
     </div>
   )

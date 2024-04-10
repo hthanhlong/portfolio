@@ -2,7 +2,6 @@ import {
   About,
   Contact,
   Hero,
-  Nav,
   Experience,
   PreLoad,
   Portfolios
@@ -11,7 +10,6 @@ import {
 function App() {
   return (
     <div className="app">
-      <Nav />
       <Hero />
       <About />
       <Experience />

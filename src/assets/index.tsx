@@ -5,7 +5,10 @@ import thumbnail_1 from './imgs/thumbnail_1.png'
 import thumbnail_2 from './imgs/thumbnail_2.png'
 import thumbnail_3 from './imgs/thumbnail_3.png'
 import live from './svgs/live.svg'
-import github from './svgs/github.svg'
+import githubIcon from './svgs/github.svg'
+import linkedinIcon from './svgs/linkedin.svg'
+import skypeIcon from './svgs/skype.svg'
+import gmailIcon from './svgs/gmail.svg'
 
 export {
   benefitCard3,
@@ -15,5 +18,8 @@ export {
   thumbnail_2,
   thumbnail_3,
   live,
-  github
+  githubIcon,
+  linkedinIcon,
+  skypeIcon,
+  gmailIcon
 }

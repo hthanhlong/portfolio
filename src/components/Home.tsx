@@ -2,10 +2,12 @@ import { Canvas } from '@react-three/fiber'
 import Wrapper from './Wrapper'
 import { motion } from 'framer-motion'
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
+import Nav from './Nav'
 
 const Home = () => {
   return (
     <Wrapper id="home">
+      <Nav />
       <div className="container flex flex-col-reverse px-8 pb-20 lg:flex-row">
         <div className="flex flex-1 flex-col justify-center text-white">
           <motion.div
