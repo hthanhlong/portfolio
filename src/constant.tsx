@@ -46,7 +46,7 @@ export const portfolio = [
     backgroundUrl: benefitCard3,
     thumbnail: thumbnail_1,
     linkGithub: 'https://github.com/hthanhlong/react_code_editor',
-    linkLive: 'https://codeeditor.hthanhlong97.com/'
+    linkLive: 'https://ide.hthanhlong97.com/'
   },
   {
     id: '1',
@@ -55,7 +55,7 @@ export const portfolio = [
     backgroundUrl: benefitCard5,
     thumbnail: thumbnail_2,
     linkGithub: 'https://github.com/hthanhlong/chat-page',
-    linkLive: 'https://chatapp.hthanhlong97.com/login'
+    linkLive: 'https://chatpage.hthanhlong97.com/login'
   },
   {
     id: '2',
@@ -64,6 +64,6 @@ export const portfolio = [
     backgroundUrl: benefitCard6,
     thumbnail: thumbnail_3,
     linkGithub: 'https://github.com/hthanhlong/nike_clone',
-    linkLive: 'https://nikeclone.hthanhlong97.com'
+    linkLive: 'https://ecommerce.hthanhlong97.com'
   }
 ]
