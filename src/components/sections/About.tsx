@@ -29,7 +29,7 @@ const About = () => {
                 professional experience, I've honed my skills in various
                 technologies that empower me to build dynamic and responsive web
                 solutions.
-                <div className="mt-4">
+                <div className="mt-4 max-sm:hidden">
                   My primary focus lies in leveraging the power of ReactJS to
                   create interactive and scalable user interfaces. These
                   technologies enable me to develop applications that look great
