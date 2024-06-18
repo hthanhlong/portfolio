@@ -1,7 +1,7 @@
 import { githubIcon, gmailIcon, linkedinIcon, skypeIcon } from '../../assets'
 import Form from '../Form'
 import GetInTouch from '../GetInTouch'
-import Wrapper from '../Wrapper'
+import Wrapper from '../Wrapper/Wrapper'
 import { motion } from 'framer-motion'
 
 const Contact = () => {

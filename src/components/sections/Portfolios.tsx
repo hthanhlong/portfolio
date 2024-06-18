@@ -1,4 +1,4 @@
-import Wrapper from '../Wrapper'
+import Wrapper from '../Wrapper/Wrapper'
 import { portfolio } from '../../data/constant'
 import Portfolio from '../Portfolio'
 import { motion } from 'framer-motion'

@@ -1,4 +1,4 @@
-import Wrapper from '../Wrapper'
+import Wrapper from '../Wrapper/Wrapper'
 import { benefits } from '../../data/constant'
 import { motion } from 'framer-motion'
 import ExperienceTag from '../ExperienceTag'

@@ -1,4 +1,4 @@
-import Wrapper from '../Wrapper'
+import Wrapper from '../Wrapper/Wrapper'
 import myPicture from '../../assets/imgs/my-picture.jpeg'
 import AboutMe from '../AboutMe'
 import { motion } from 'framer-motion'

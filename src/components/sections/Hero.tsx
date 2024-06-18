@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber'
-import Wrapper from '../Wrapper'
+import Wrapper from '../Wrapper/Wrapper'
 import { motion } from 'framer-motion'
 import { MeshDistortMaterial, OrbitControls, Sphere } from '@react-three/drei'
 import NavBar from '../NavBar/NavBar'

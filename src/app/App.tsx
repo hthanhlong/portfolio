@@ -7,7 +7,7 @@ import {
   Hero,
   Portfolios,
   PreLoad
-} from '../components/sections'
+} from '../components'
 
 function App() {
   return (
