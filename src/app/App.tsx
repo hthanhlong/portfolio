@@ -3,15 +3,15 @@ import 'react-toastify/dist/ReactToastify.css'
 import {
   About,
   Contact,
-  Hero,
   Experience,
-  PreLoad,
-  Portfolios
-} from './components'
+  Hero,
+  Portfolios,
+  PreLoad
+} from '../components/sections'
 
 function App() {
   return (
-    <>
+    <div>
       <div className="app">
         <Hero />
         <About />
@@ -21,7 +21,7 @@ function App() {
         <PreLoad />
       </div>
       <ToastContainer limit={2} />
-    </>
+    </div>
   )
 }
 

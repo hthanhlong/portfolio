@@ -4,8 +4,9 @@ import {
   benefitCard6,
   thumbnail_1,
   thumbnail_2,
-  thumbnail_3
-} from './assets'
+  thumbnail_3,
+  thumbnail_4
+} from '../assets'
 
 export const benefits = [
   {
@@ -65,5 +66,14 @@ export const portfolio = [
     thumbnail: thumbnail_3,
     linkGithub: 'https://github.com/hthanhlong/nike_clone',
     linkLive: 'https://ecommerce.hthanhlong97.com'
+  },
+  {
+    id: '3',
+    title: 'Jamee tea store',
+    text: 'Description: The app which is my forseeable start-up for the grocery store allows customers to order products online.',
+    backgroundUrl: benefitCard6,
+    thumbnail: thumbnail_4,
+    linkGithub: 'https://github.com/hthanhlong/jammee-tea',
+    linkLive: 'https://jameetea.hthanhlong97.com/'
   }
 ]

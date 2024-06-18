@@ -4,6 +4,7 @@ import benefitCard6 from './svgs/card-6.svg'
 import thumbnail_1 from './imgs/thumbnail_1.png'
 import thumbnail_2 from './imgs/thumbnail_2.png'
 import thumbnail_3 from './imgs/thumbnail_3.png'
+import thumbnail_4 from './imgs/thumbnail_4.png'
 import live from './svgs/live.svg'
 import githubIcon from './svgs/github.svg'
 import linkedinIcon from './svgs/linkedin.svg'
@@ -20,6 +21,7 @@ export {
   thumbnail_1,
   thumbnail_2,
   thumbnail_3,
+  thumbnail_4,
   live,
   githubIcon,
   linkedinIcon,
