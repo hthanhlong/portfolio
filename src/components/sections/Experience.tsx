@@ -16,7 +16,7 @@ const Experience = () => {
             <h1 className="mb-3 text-2xl font-bold text-pink-600 lg:text-4xl">
               Experience
             </h1>
-            <div className="flex flex-col gap-2 lg:flex-row lg:gap-4">
+            <div className="flex flex-col gap-2 lg:flex-row">
               {benefits.map((item) => (
                 <ExperienceTag key={item.id} item={item} />
               ))}

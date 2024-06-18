@@ -16,7 +16,7 @@ const Portfolios = () => {
             whileInView={{ x: 0 }}
             transition={{ duration: 1 }}
           >
-            <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
+            <div className="grid grid-cols-2 gap-4">
               {portfolio.map((item) => (
                 <Portfolio
                   key={item.id}

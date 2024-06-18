@@ -15,7 +15,7 @@ const Portfolio = ({
 }) => {
   return (
     <div key={item.id} className="rounded-md bg-white bg-opacity-10">
-      <div className="min-h-[160px] w-full min-w-[320px] p-2 lg:p-4">
+      <div className="p-4">
         <h5 className="text-center text-sm font-bold text-pink-300 lg:text-xl">
           {item.title}
         </h5>
