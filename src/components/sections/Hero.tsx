@@ -36,7 +36,7 @@ const Home = () => {
             >
               <span className="text-white-200 h-[4px] w-[40px] rounded-l bg-white"></span>
               <span className="text-xl text-pink-400 lg:text-2xl">
-                What we do
+                What I do
               </span>
             </motion.div>
             <motion.div
@@ -45,8 +45,7 @@ const Home = () => {
               transition={{ duration: 1.75 }}
               className="text-md lg:text-lg"
             >
-              We enjoy creating delightful digital experiences for our
-              customers.
+              I enjoy creating delightful digital experiences for my customers.
             </motion.div>
 
             <motion.button

@@ -64,7 +64,7 @@ const Contact = () => {
                     />
                   </a>
                   <a
-                    href="https://www.linkedin.com/in/long-hoang-james-7a87031b8"
+                    href="https://www.linkedin.com/in/long-hoang-7a87031b8/"
                     target="_blank"
                   >
                     <img
