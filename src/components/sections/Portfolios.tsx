@@ -9,14 +9,14 @@ const Portfolios = () => {
       <div className="flex-center h-full">
         <div className="grid place-content-center text-white">
           <h1 className="mb-3 text-right text-2xl font-bold text-pink-600 lg:text-4xl">
-            Portfolio
+            Portfolios
           </h1>
           <motion.div
             initial={{ x: -100 }}
             whileInView={{ x: 0 }}
             transition={{ duration: 1 }}
           >
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-2">
               {portfolio.map((item) => (
                 <Portfolio
                   key={item.id}

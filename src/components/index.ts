@@ -6,8 +6,6 @@ import HireMeButton from './HireMeButton'
 import Project from './Project'
 import AboutMe from './AboutMe'
 import Portfolio from './Portfolio'
-import GithubIcon from './GithubIcon'
-import LiveIcon from './LiveIcon'
 import ExperienceTag from './ExperienceTag'
 import Hero from './sections/Hero'
 import About from './sections/About'
@@ -26,8 +24,6 @@ export {
   Project,
   AboutMe,
   Portfolio,
-  GithubIcon,
-  LiveIcon,
   ExperienceTag,
   Hero,
   About,

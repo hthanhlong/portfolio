@@ -1,4 +1,4 @@
-import { GithubIcon, LiveIcon } from '.'
+import { githubIcon } from '../assets'
 
 const Portfolio = ({
   item
@@ -14,37 +14,30 @@ const Portfolio = ({
   }
 }) => {
   return (
-    <div key={item.id} className="rounded-md bg-white bg-opacity-10">
-      <div className="p-4">
-        <h5 className="text-center text-sm font-bold text-pink-300 lg:text-xl">
-          {item.title}
-        </h5>
-        <a href={item.linkLive} target="_blank">
-          <img
-            draggable={false}
-            src={item.thumbnail}
-            alt="thumnbnail_1"
-            className="mx-auto my-1 h-[100px] w-[100px] transition-all hover:scale-105 md:h-[250px] md:w-[250px] lg:h-[300px] lg:w-[400px]"
-          />
+    <div
+      key={item.id}
+      className="flex flex-col gap-2 rounded-md bg-white bg-opacity-10 p-4"
+    >
+      <h5 className="text-center text-sm font-bold text-pink-300 lg:text-xl">
+        {item.title}
+      </h5>
+      <a href={item.linkLive} target="_blank" className="flex-1">
+        <img
+          draggable={false}
+          src={item.thumbnail}
+          alt="thumbnail"
+          className="h-30 mt-2 w-full rounded-md object-cover lg:h-40"
+        />
+      </a>
+      <div className="flex justify-center gap-4">
+        <a
+          className="flex items-center text-sm transition-all hover:text-blue-400 lg:mt-4 lg:text-lg"
+          href={item.linkGithub}
+          target="_blank"
+        >
+          <img src={githubIcon} alt="github" className="size-6" />
+          <span className="ml-3">Github</span>
         </a>
-        <div className="flex justify-center gap-4">
-          <a
-            className="flex items-center text-sm transition-all hover:text-blue-400 lg:mt-4 lg:text-lg"
-            href={item.linkGithub}
-            target="_blank"
-          >
-            <GithubIcon />
-            <span className="ml-3">Github</span>
-          </a>
-          <a
-            className="flex items-center text-sm transition-all hover:text-blue-400 lg:mt-4 lg:text-lg"
-            href={item.linkLive}
-            target="_blank"
-          >
-            <LiveIcon />
-            <span className="ml-3">Live</span>
-          </a>
-        </div>
       </div>
     </div>
   )
