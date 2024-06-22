@@ -15,7 +15,9 @@ const NavBar = () => {
     >
       <div className="flex flex-1 justify-between">
         <div className="nav-left flex items-center lg:gap-10">
-          <h1 className="font-bold text-white lg:text-2xl">Long Hoang</h1>
+          <h1 data-testid="title" className="font-bold text-white lg:text-2xl">
+            Long Hoang
+          </h1>
         </div>
         <div className="nav-right flex items-center gap-8">
           <a href="#contact">

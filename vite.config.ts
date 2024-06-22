@@ -1,8 +1,13 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import svgr from 'vite-plugin-svgr'
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [svgr(), react()]
+  plugins: [react()],
+  // @ts-expect-error - Add the test environment here
+  test: {
+    globals: true,
+    environment: 'jsdom', // Ensure jsdom is set here
+    setupFiles: './src/setupTests.ts'
+  }
 })

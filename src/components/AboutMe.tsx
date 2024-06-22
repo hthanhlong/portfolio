@@ -4,6 +4,7 @@ const AboutMe = () => {
   return (
     <div className="grid place-content-center">
       <motion.h1
+        data-testid="about-me"
         initial={{ opacity: 0, y: 100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.3 }}

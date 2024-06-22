@@ -7,5 +7,27 @@
     "allowSyntheticDefaultImports": true,
     "strict": true
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "scripts",
+    "test",
+    "tests",
+    "cypress",
+    "jest",
+    "jest.config.js",
+    "jest.setup.js",
+    "jest.setup.ts",
+    "jest.setup.tsx",
+    "jest.setup.babel.js",
+    "jest.setup.babel.ts",
+    "jest.setup.babel.tsx",
+    "jest.setup.mjs",
+    "jest.setup.cjs",
+    "jest.setup.esm.js",
+    "jest.setup.esm.ts",
+    "jest.setup.esm.tsx"
+  ]
 }

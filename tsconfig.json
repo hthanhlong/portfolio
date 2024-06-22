@@ -18,8 +18,20 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+    "checkJs": false
   },
   "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "coverage",
+    "scripts",
+    "test",
+    "src/**/*.test.ts",
+    "src/**/*.spec.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
