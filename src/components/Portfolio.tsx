@@ -26,7 +26,7 @@ const Portfolio = ({
           draggable={false}
           src={item.thumbnail}
           alt="thumbnail"
-          className="h-30 mt-2 w-full rounded-md object-cover lg:h-40"
+          className="h-30 mt-2 w-full rounded-md object-cover transition-all hover:scale-105 lg:h-40"
         />
       </a>
       <div className="flex justify-center gap-4">
