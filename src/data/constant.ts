@@ -77,3 +77,9 @@ export const portfolio = [
     linkLive: 'https://jameetea.hthanhlong97.com/'
   }
 ]
+
+export const ENV = {
+  VITE_FORM_ID: import.meta.env.VITE_FORM_ID,
+  VITE_FORM_TEMPLATE: import.meta.env.VITE_FORM_TEMPLATE,
+  VITE_FORM_KEY: import.meta.env.VITE_FORM_KEY
+}
